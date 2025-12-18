@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Real Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌍 My Real Website</h1>
+  <p>Built with HTML, CSS & JavaScript</p>
+</header>
+
+<main>
+  <section class="card" onclick="showMessage('HTML')">
+    <h2>HTML</h2>
+    <p>Website structure</p>
+  </section>
+
+  <section class="card" onclick="showMessage('CSS')">
+    <h2>CSS</h2>
+    <p>Website design</p>
+  </section>
+
+  <section class="card" onclick="showMessage('JavaScript')">
+    <h2>JavaScript</h2>
+    <p>Website interaction</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 My GitHub Website</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
